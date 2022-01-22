@@ -1,0 +1,92 @@
+    1  cd /root
+    2  cd server_lesson
+    3  git log
+    4  ls
+    5  cd linux_practice
+    6  cd linux_practice1
+    7  ls
+    8  ls /
+    9  ls root
+   10  ls /root
+   11  cd public
+   12  ls
+   13  pwd
+   14  cd
+   15  cd public
+   16  pwd
+   17  ls
+   18  cd /server_lesson/public
+   19  ls /
+   20  ls
+   21  pwd
+   22  cd /server_lesson
+   23  cd server_lesson
+   24  ls
+   25  cd server_lesson/linux_practice1
+   26  cd linux_practice1/public
+   27  ls
+   28  cd ..
+   29  cd public
+   30  cp index.php index_bk.php
+   31  pwd
+   32  ls
+   33  cd ..
+   34  ls
+   35  cp -r public tmp
+   36  ls
+   37  ls tmp
+   38  ls
+   39  rm tmp/index_bk.php
+   40  ls tmp
+   41  cd ../..
+   42  ls
+   43  cd server_lesson
+   44  ls
+   45  touch README.md
+   46  ls
+   47  vi README.md
+   48  vi README.md
+   49  :set fenc?
+   50  exit
+   51  ls
+   52  ls /root
+   53  ls /root/server_lesson
+   54  :set fenc?
+   55  vi ~/.vimrc
+   56  pwd
+   57  cd root/server_lesson
+   58  ls
+   59  cd README.md
+   60  vi README.md
+   61  cat README.md
+   62  vi README.md
+   63  vi README.md
+   64  pwd
+   65  ls
+   66  mkdir linux_practice2
+   67  ls
+   68  cd linux_practice2
+   69  mkdir documents
+   70  ls
+   71  cd documents
+   72  ls
+   73  touch gizumo{01..50}.md
+   74  ls
+   75  cd ..
+   76  mkdir trash
+   77  mv gizumo{20..40}.md trash
+   78  ls
+   79  mv documents/gizumo{20..40}.md trash
+   80  ls
+   81  cd trash
+   82  ls
+   83  cd ..
+   84  touch .gitignore
+   85  ls
+   86  ls -a
+   87  vi .gitignore
+   88  ls -a
+   89  ls trash
+   90  vi .gitignore
+   91  vi .gitignore
+   92  history 300
